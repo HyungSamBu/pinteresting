@@ -76,4 +76,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Required for Heroku
+  # Note this should be set to the actual host name (not localhost).
+  config.action_mailer.default_url_options = { host: 'mvoss-pinteresting.git' }
+
 end
