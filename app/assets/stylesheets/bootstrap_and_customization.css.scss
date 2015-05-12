@@ -3,6 +3,7 @@ $navbar-default-bg: rgb(0,0,0);
 $navbar-default-link-color: rgb(255,255,255);
 $jumbotron-bg: rgb(255,255,255);
 $brand-primary: rgb(193, 61, 86);
+@import "bootstrap-sprockets"; 
 @import 'bootstrap';
 
 a {
